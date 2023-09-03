@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #054984, #134f82);
+    overflow: hidden;
+  }
+
+  #divxy {
+    width: 6em;
+    height: 6em;
+    background-color: #3e5f7c;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(16, 0, 54, 0.2);
+    transition: 0.1s ease-out;
+  }
